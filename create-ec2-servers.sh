@@ -3,7 +3,7 @@
 ##### Change these values ###
 ZONE_ID="Z0141753I3SSRW85TYS9"
 DOMAIN="devsig90.online"
-SG_NAME="allow-all"
+SG_NAME="Allow-All"
 #############################
 
 
