@@ -11,7 +11,7 @@ echo -e "\e[35m extracting downloaded frontend\e[0m"
 cd /usr/share/nginx/html 
 unzip /tmp/frontend.zip
 
-echo -e "\e[35mCopying Ngix config for Roboshop[0m"
+echo -e "\e[35mCopying Ngix config for Roboshop\e[0m"
 cp config/nginx-roboshop.conf //etc/nigix/default.d/roboshop.conf
 
 echo -e "\e[35mEnabling Nginx\e[0m"
