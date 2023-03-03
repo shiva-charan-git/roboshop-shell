@@ -16,8 +16,7 @@ unzip /tmp/frontend.zip
 
 echo -e "\e[35mCopying Ngix config for Roboshop\e[0m"
 
-pwd
-ls -l
+
 cp ${code_dir}/configs/nginx-roboshop.conf /etc/nigix/default.d/roboshop.conf
 
 echo -e "\e[35mEnabling Nginx\e[0m"
